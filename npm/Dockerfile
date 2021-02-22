@@ -1,4 +1,4 @@
-FROM node:14
+FROM us.icr.io/codeengine-s2i/node:14
 
 COPY . /app
 WORKDIR /app

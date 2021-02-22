@@ -1,4 +1,4 @@
-FROM golang:1.15 AS build
+FROM us.icr.io/codeengine-s2i/golang:1.15 AS build
 COPY . /go/build
 WORKDIR /go/build
 
